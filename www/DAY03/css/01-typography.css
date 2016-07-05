@@ -19,8 +19,8 @@ p {
 	color: #373737;
 	line-height: 1.5;
 	font-size: 16px;
-	margin-top: 24px;
 	letter-spacing: -0.025em; /*Equal M*/
+	margin-bottom: 1.5em;
 }
 
 /* 
@@ -31,9 +31,35 @@ p {
 	Base Font Size; 16px = 1em
  */
 
- h6 { font-size: 1.24em; }
- h5 { font-size: 1.5376em; }
- h4 { font-size: 1.906624em; }
- h3 { font-size: 2.36421376em; }
- h2 { font-size: 2.931625062em; }
- h1 { font-size: 3.635215077em; }
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl, dd, figure,
+blockquote, details, hr,
+fieldset, pre, table {
+  margin: 0 0 1.5rem;
+}
+
+ h6 {
+ 	line-height: 1.209677419em; 
+ 	font-size: 1.24em; 
+
+ }
+ h5 {
+ 	line-height:  1.951092612em;
+ 	font-size: 1.5376em; 
+ }
+ h4 {
+ 	line-height: 1.573461784em;
+ 	font-size: 1.906624em; 
+ }
+ h3 {
+ 	line-height: 1.268920793em; 
+ 	font-size: 2.36421376em; 
+ }
+ h2 {
+ 	line-height: 1.023323221em; 
+ 	font-size: 2.931625062em; 
+ }
+ h1 {
+ 	line-height: 1.237890993em;
+ 	font-size: 3.635215077em;
+ }
