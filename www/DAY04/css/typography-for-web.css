@@ -1,0 +1,17 @@
+/*
+* 본문 디자인 (설계)
+* 글자 모양(font-fmily): Spoqa Han Sans (Like Noto Sans);
+* 글자 색상(color): #373737;
+* 글자 크기(font size): 16px;
+* 행간 비율(line height): 1.5 (16 * 1.5 = 24px);
+* 자간 설정(letter spacing): -25;
+*/
+
+p{
+	font-family: 'Spoqa Han Sans';
+	color: #373737;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: -0.025em;
+	margin-bottom: 1.5em;
+}
